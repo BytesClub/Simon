@@ -1,0 +1,193 @@
+body {
+	/*background: url("https://www.toptal.com/designers/subtlepatterns/patterns/light-veneer.png");*/
+	background:
+		radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+		radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+		linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+		linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+		linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+		linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1;
+	background-size:40px 60px;
+	user-select: none;
+}
+
+#small-circle{
+	position: absolute;
+	margin-top: 11.8rem;
+	margin-left: 6.7rem;
+	width: 16.5rem;
+	height: 16.5rem;
+	background-color: #F5F5F5;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 0.8rem;
+	border-color: #3a3939;
+	z-index: 1;
+}
+
+#small-circle p {
+	padding-top: 15%;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+sup {
+	vertical-align: 12px;
+	font-size: 20px;
+}
+
+.circle {
+	position: relative;
+	margin-top: 5rem;
+	padding: 0;
+	width: 30rem;
+    height: 30rem;
+	list-style: none;
+    overflow: hidden;
+}
+
+span {
+	font-family: 'Oswald', sans-serif;
+	font-size: 12px;
+}
+
+.btns {
+	margin-left: -1.25rem;
+	display: inline-block;
+	background-color: red;
+	height: 25px;
+	width: 170%;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 4px;
+	border-color: #2d2c2c;
+	box-shadow: 0px 3px 5px 1px;
+}
+
+.btns:active {
+	box-shadow: none;
+}
+
+#start {
+	margin-top: 0.5rem;
+	margin-bottom: 5px;
+}
+
+#strict {
+	margin-top: 0.4rem;
+	margin-bottom: 5px;
+	background-color: yellow;
+}
+
+#light {
+	display: block;
+	margin-top: -6px;
+	height: 8px;
+	width: 55%;
+	background-color: black;
+	border-width: 2px;
+	box-shadow: none;
+}
+
+#display {
+	color: #750b0b;
+	background-color: #490707;
+	padding:6px 18px;
+	text-align: center;
+	border-style: solid;
+	border-radius: 20%;
+	border-width: 5px;
+	border-color: #2d2c2c;
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+}
+
+#controls {
+	display: inline-block;
+	border-style: solid;
+	border-radius: 5%;
+	width: 3rem;
+	height: 1.5rem;
+	background-color: #3a3939;
+}
+
+#on {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 100%;
+	border-style: solid;
+	border-radius: 15%;
+	border-width: 0.5px;
+	border-color: #3a3939;
+	background-color: #0a9cc9;
+}
+
+ul {
+	border-radius: 50%;
+	box-shadow: 0px 0px 5px 5px;
+}
+
+li {
+	overflow: hidden;
+	position: absolute;
+	top: 0; right: 0;
+	width: 50%; height: 50%;
+	transform-origin: 0% 100%;
+	border-width: 10px;
+	border-color: #3a3939;
+}
+
+.text {
+	position: absolute;
+	left: -100%;
+	width: 200%; height: 200%;
+	text-align: center;
+    transform: skewY(0deg) rotate(45deg);
+    padding-top: 20px;
+    border-style: solid;
+	border-radius: 100%;
+	border-width: 15px;
+	border-color: #3a3939;
+	box-shadow: 5px 5px;
+}
+li:first-child {
+	transform: rotate(0deg) skewY(0deg);
+	border-style: solid;
+	border-top-right-radius: 100%;	
+}
+
+li:first-child .text {
+	background-color: #b22e2e;
+}
+
+li:nth-child(2) {
+	transform: rotate(90deg) skewY(0deg);
+	border-style: solid;
+	border-top-right-radius: 100%;
+}
+
+li:nth-child(2) .text {
+	background-color: #2e50a0;
+}
+
+li:nth-child(3) {
+	transform: rotate(180deg) skewY(0deg);
+	border-style: solid;
+	border-top-right-radius: 100%;
+}
+
+li:nth-child(3) .text {
+	background-color: #a0a310;
+}
+
+li:nth-child(4) {
+	transform: rotate(270deg) skewY(0deg);
+	border-style: solid;
+	border-top-right-radius: 100%;
+}
+
+li:nth-child(4) .text {
+	background-color: #058922;
+}
